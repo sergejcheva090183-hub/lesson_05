@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 def test_navigation():
     driver = webdriver.Chrome()
     
-    # Открываем главную страницу
+    # Открываем главную страницу 
     driver.get("https://httpbin.qa-territory.online")
     initial_url = driver.current_url
     

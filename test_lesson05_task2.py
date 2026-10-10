@@ -20,3 +20,4 @@ def test_form_submission():
     assert new_url != previous_url, "URL не изменился после отправки формы"
 
     driver.quit()
+    
